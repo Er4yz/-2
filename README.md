@@ -393,3 +393,37 @@
             //if (o is int val && val > 40) { };
             //Console.WriteLine(o);
 <img width="1920" height="1200" alt="№9" src="https://github.com/user-attachments/assets/ebbfe75a-e9d1-41c5-bdb6-60fb3d2fc6a5" />
+            
+            //10.Что вернет выражение default(int) и default(string)?
+            //Console.WriteLine(default(int));
+            //Console.WriteLine(default(string));
+
+            #endregion
+
+            #region 35 сложносоставных заданий на логические выражения.
+
+            //bool a = (5 > 3) && !(10 <= 2) || (4 == 5); Console.WriteLine(a); 
+            //1. (5 > 3) &&(И) !(НЕ)(10 <= 2) ||(ИЛИ) (4 == 5)
+            //(true && true) || false
+
+            //bool a = !(true && false) ^ (true || false && false); Console.WriteLine(a); 
+            //2. !(НЕ)(true && false) ^(лог.ИЛИ) (true || false && false)
+            //true (^ возвращает true, только если операнды разные) true
+
+            //bool a = (10 & 6) == 2 && (10 | 6) == 14; Console.WriteLine(a); 
+            //3. (10 & 6) == 2 && (10 | 6) == 14
+            //2 (0010) -> true && 14 (1110) -> true
+
+            //bool a = (15 >> 1 == 7) && (7 << 2 == 28); Console.WriteLine(a);
+            //4.
+
+            //bool a = (8 > 5) && (3 + 2 * 4 == 11) && !(false || !true); Console.WriteLine(a);
+            //5.
+
+            //bool a = (true || false) && (false || true) ^ (true && !false); Console.WriteLine(a);
+            //6.
+
+            bool a = (100 / 10 == 10) && (100 % 30 == 10) && !(5 - 5 != 0); Console.WriteLine(a);
+            //7.
+            #endregion
+            #endregion
