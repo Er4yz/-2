@@ -1,4 +1,4 @@
-
+<img width="1025" height="157" alt="правило 3" src="https://github.com/user-attachments/assets/4cd82327-6d4b-4e63-978b-b5d0dd2e4b07" />
             #region Задания по группам.
 
             #region Арифметические операторы.
@@ -397,6 +397,7 @@
             //10.Что вернет выражение default(int) и default(string)?
             //Console.WriteLine(default(int));
             //Console.WriteLine(default(string));
+<img width="1920" height="1200" alt="№10" src="https://github.com/user-attachments/assets/4b5b64e5-b965-4db0-90a2-410545d33505" />
 
             #endregion
 
@@ -405,25 +406,143 @@
             //bool a = (5 > 3) && !(10 <= 2) || (4 == 5); Console.WriteLine(a); 
             //1. (5 > 3) &&(И) !(НЕ)(10 <= 2) ||(ИЛИ) (4 == 5)
             //(true && true) || false
+<img width="1920" height="1200" alt="№1" src="https://github.com/user-attachments/assets/74ceb996-85f0-4b72-8a60-b19c0c51a8a4" />
 
             //bool a = !(true && false) ^ (true || false && false); Console.WriteLine(a); 
             //2. !(НЕ)(true && false) ^(лог.ИЛИ) (true || false && false)
             //true (^ возвращает true, только если операнды разные) true
+<img width="1920" height="1200" alt="№2" src="https://github.com/user-attachments/assets/4bd23d89-67a0-465a-95ca-9c63930187e5" />
 
             //bool a = (10 & 6) == 2 && (10 | 6) == 14; Console.WriteLine(a); 
             //3. (10 & 6) == 2 && (10 | 6) == 14
             //2 (0010) -> true && 14 (1110) -> true
+<img width="1920" height="1200" alt="№3" src="https://github.com/user-attachments/assets/7efa4bce-5174-467a-9771-eddc15048e27" />
 
             //bool a = (15 >> 1 == 7) && (7 << 2 == 28); Console.WriteLine(a);
             //4.
+<img width="1920" height="1200" alt="№4" src="https://github.com/user-attachments/assets/479d2214-c29c-4b22-aa04-91ac8506046c" />
 
             //bool a = (8 > 5) && (3 + 2 * 4 == 11) && !(false || !true); Console.WriteLine(a);
             //5.
+<img width="1920" height="1200" alt="№5" src="https://github.com/user-attachments/assets/cec40de7-39c1-4be1-98d3-68e03d73be78" />
 
             //bool a = (true || false) && (false || true) ^ (true && !false); Console.WriteLine(a);
             //6.
+<img width="1920" height="1200" alt="№6" src="https://github.com/user-attachments/assets/ecef8881-fc90-4cda-84db-6bc33af888ec" />
 
             bool a = (100 / 10 == 10) && (100 % 30 == 10) && !(5 - 5 != 0); Console.WriteLine(a);
             //7.
+<img width="1920" height="1200" alt="№7" src="https://github.com/user-attachments/assets/a79ec2db-b361-4b53-ad30-254cef6fff83" />
+
+            //bool a = (4 ^ 4) == 0 && (4 ^ 0) == 4 && (0 ^ 0) == 0; Console.Write(a);
+            //8.
+<img width="1920" height="1200" alt="№8" src="https://github.com/user-attachments/assets/2ea3bfa3-d9c0-469c-b7ca-b22cb9954d3b" />
+
+            //int b = 10;
+            //bool a = !(5 != 5) && ((3 >= 3) || (b / 0 == 1)); Console.WriteLine(a);
+            //9.
+<img width="1920" height="1200" alt="№9" src="https://github.com/user-attachments/assets/13bac0ca-e077-4d9c-bc8a-9708f420eff9" />
+
+            //int b = 10;
+            //bool a = (false && (b / 0 == 1)) || (true && (20 > 15)); Console.WriteLine(a);
+            //10.
+<img width="1920" height="1200" alt="№10" src="https://github.com/user-attachments/assets/0d634e71-3c83-470c-b1d4-afd86fc78664" />
+
+            //bool a = (12 & 10) > 5 || (12 | 10) < 15 && !(3 == 3); Console.WriteLine(a);
+            //11.
+<img width="1920" height="1200" alt="№11" src="https://github.com/user-attachments/assets/d9ecb6ec-0373-4342-bd17-045b8c80803c" />
+
+            //bool a = ((20 >> 2) == 5) ^ ((5 << 1) == 11); Console.WriteLine(a);
+            //12.
+<img width="1920" height="1200" alt="№12" src="https://github.com/user-attachments/assets/e98b293b-212c-4c90-bac1-4836030be5fb" />
+
+            //bool a = !(!(true || false) && (true && !false)); Console.WriteLine(a);
+            //13.
+<img width="1920" height="1200" alt="№13" src="https://github.com/user-attachments/assets/15a5afc3-be6a-4e10-8e16-ec6359215a82" />
+
+            //bool a = (7 > 2 ? 10 : 20) == 10 && (3 < 1 ? 5 : 15) == 15; Console.WriteLine(a);
+            //14.
+<img width="1920" height="1200" alt="№14" src="https://github.com/user-attachments/assets/e215ad30-71a6-4bb8-aaf9-cad99e96a868" />
+
+            //bool a = (5 & 1) == 1 && (6 & 1) == 0 && (7 & 1) == 1; Console.WriteLine(a);
+            //15.
+<img width="1920" height="1200" alt="№15" src="https://github.com/user-attachments/assets/b7589761-6eac-40ce-992b-2a7f3d225344" />
+
+            //bool a = ((10 > 5 ? true : false) ^ (3 > 8 ? true : false)) && !false; Console.WriteLine(a);
+            //16.
+<img width="1920" height="1200" alt="№16" src="https://github.com/user-attachments/assets/3aeaede9-6054-4173-ba2b-9fa7975a39b9" />
+
+            //bool a = !((5 > 2 && 10 > 20) || (3 == 3 && 4 <= 4)); Console.WriteLine(a);
+            //17.
+<img width="1920" height="1200" alt="№17" src="https://github.com/user-attachments/assets/41d7949f-0a5d-432b-94f4-18bc7e4be4e1" />
+
+            //bool a = ((1 << 3) == 8) && ((16 >> 4) == 1) && ((2 << 2) == 8); Console.WriteLine(a);
+            //18.
+<img width="1920" height="1200" alt="№18" src="https://github.com/user-attachments/assets/560e9cb2-7b2a-40fd-9518-e3db25c282fc" />
+
+            //bool a = ((10 & 7) == 2) || ((10 | 7) == 15) ^ !(4 > 1); Console.WriteLine(a);
+            //19.
+<img width="1920" height="1200" alt="№19" src="https://github.com/user-attachments/assets/d5456971-a779-45f4-92a0-4271cceb7d5e" />
+
+            //bool a = false || true && false || true && !false; Console.WriteLine(a);  
+            //20.
+<img width="1920" height="1200" alt="№20" src="https://github.com/user-attachments/assets/fbdfc2c5-3ca0-4ff6-aedd-85eac920a6e9" />
+
+            //bool a = (25 % 4 == 1) && (17 / 3 == 5) && (17 % 3 == 2); Console.WriteLine(a);
+            //21.
+<img width="1920" height="1200" alt="№21" src="https://github.com/user-attachments/assets/1884ffce-c00a-42b7-8562-d4b506abe2c7" />
+
+            //bool a = ((5 ^ 3 ^ 3) == 5) && ((10 ^ 0) == 10); Console.WriteLine(a);
+            //22.
+
+
+            //bool a = (true ? (false ? 1 : 2) : (true ? 3 : 4)) == 2; Console.WriteLine(a);
+            //23. 2 3 
+<img width="1920" height="1200" alt="№23" src="https://github.com/user-attachments/assets/4fc520ce-4c53-48a3-a975-e0176d2848fe" />
+
+            //bool a = !(true && !(false || !false)); Console.WriteLine(a);
+            //24.
+<img width="1920" height="1200" alt="№24" src="https://github.com/user-attachments/assets/fca22cf6-1b58-4d0a-a5b7-2daf57da13f9" />
+
+            //bool a = ((~0 == -1) && (~(-1) == 0)); Console.WriteLine(a);
+            //25. ~ инвертирует каждый бит(все 0 становятся 1, все 1 становятся 0)
+<img width="1920" height="1200" alt="№25" src="https://github.com/user-attachments/assets/955f6846-eac1-4c8e-9e39-736cc375d7a8" />
+
+            //bool a = ((8 & 4) == 0) && ((8 | 4) == 12) && ((8 ^ 4) == 12); Console.WriteLine(a);
+            //26.
+<img width="1920" height="1200" alt="№26" src="https://github.com/user-attachments/assets/99d8b33a-1057-4591-872e-adf6e097f6eb" />
+
+            //bool a = !(10 >= 10) || (5 < 3) && (2 == 2) || !(false); Console.WriteLine(a);
+            //27. true
+
+            //bool a = ((15 & ~1) == 14) && ((14 | 1) == 15); Console.WriteLine(a);
+            //28. 0001 --> 1110
+
+            //bool a = ((true || false) ? (false && true ? 10 : 20) : 30) == 20; Console.WriteLine(a);
+            //29.
+
+            //bool a = ((10 > 2) && (5 < 9)) ^ (!(4 >= 5) && (6 != 7)); Console.WriteLine(a);
+            //30. 
+
+            //bool a = (7 & 3 & 1) == 1 && (7 | 3 | 1) == 7; Console.WriteLine(a);
+            //31.
+
+            //bool a = ((10 > 5 && 3 < 1) || (8 == 8 && !(5 > 10))) && (4 + 4 == 8); Console.WriteLine(a);
+            //32.
+
+            //bool a = !((!(true && false) || !(true || false)) && !false); Console.WriteLine(a);
+            //33. 
+
+            //bool a = ((32 >> 3 == 4) && (4 << 3 == 32)) ^ ((15 & 7) == 7 && (15 | 7) == 15); Console.WriteLine(a);
+            //34.     true                true                true             true
+            //                  true                                  true
+            //                                      false
+
+            //bool a = ((5 > 3 ? (2 > 1 ? true : false) : false) && !((10 > 20) || (30 < 15))); Console.WriteLine(a);
+            //35.                 true                                false         false
+            //                    true                                       false
+            //                                                               true
+            //                                        true
+ 
             #endregion
             #endregion
